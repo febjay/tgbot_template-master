@@ -10,7 +10,7 @@ class AdminFilter(BoundFilter):
 
     def __init__(self, is_admin: typing.Optional[bool] = None):
         self.is_admin = is_admin
-
+dssdsdsd
 
 async def check(self, obj):
     if self.is_admin is None:
